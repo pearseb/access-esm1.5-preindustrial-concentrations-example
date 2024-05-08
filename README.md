@@ -1,6 +1,17 @@
-# ACCESS-ESM with **payu**
 
-## Quickstart Guide
+# ACCESS-ESM1.5 Model Configurations
+
+## About
+
+This repo will contain standard global configurations for ACCESS-ESM1.5, the ACCESS Coupled Earth System Model.
+
+Most configurations are adapted from work by the [CLEX CMS team](https://github.com/coecms/access-esm).
+
+## ACCESS-ESM with **payu**
+
+(Copied from [coecms/access-esm/README.md](https://github.com/coecms/access-esm/blob/main/README.md))
+
+### Quickstart Guide
 
 
 Get payu:
@@ -36,7 +47,7 @@ The default configuration is a 1 year per model run. To run the model for, say, 
 We have noticed that some modules interfere with the git commands, for example `matlab/R2018a`.
 If you are running into issues during the installation, it might be a good idea to `module purge` first before starting again.
 
-## Understanding **payu**
+### Understanding **payu**
 
 **payu** was designed to help users of the NCI system run climate models.
 It was initially created for MOM, but has been adapted for other models,
@@ -47,7 +58,7 @@ The aim of **payu** is to make it easy and intuitive to configure and run the mo
 **payu** knows certain models and how to run them. Adding more models needs additions to the **payu** sources.
 This will not be part of this document.
 
-### Terms
+#### Terms
 
 To understand **payu**, it helps to distinguish certain terms:
 
@@ -64,7 +75,7 @@ To understand **payu**, it helps to distinguish certain terms:
 
 The **work** and **archive** directories will be automatically created by **payu**.
 
-### The master configuration file
+#### The master configuration file
 
 In the Control Directory, the file `config.yaml` is the master control file.
 Examples of what is configured in this file are:
@@ -79,7 +90,7 @@ The model configuration files are typically in subdirectories of the Control Dir
 the location of which is referenced in the master control file.
 Since the models itself do need different ways to set up the model, the contents of these subdirectories will differ between different models.
 
-## Understanding ACCESS-ESM
+### Understanding ACCESS-ESM
 
 ACCESS (Australian Community Climate and Earth System Simulator) is a Coupled Climate Model.
 
@@ -96,9 +107,9 @@ The ESM 1.5 subversion of ACCESS specifically contains these models:
 ~~Pre-compiled executables for these models are available on raijin at
 `/short/public/access-esm/payu/bin/csiro/`.~~
 
-## Setting up ACCESS-ESM with **payu**
+### Setting up ACCESS-ESM with **payu**
 
-### The pre-conditions
+#### The pre-conditions
 
 On `gadi`, first make sure that you have access to our modules.
 This can most easily been done by adding the line
@@ -114,7 +125,7 @@ Please check again after 7/2019 to see whether it has been made part of the stab
 
 as **payu** will use git to keep track of all configuration changes automatically.
 
-### Setting up the control directory
+#### Setting up the control directory
 
 Create a directory in your home directory to keep all the Control Directories you might want.
 
@@ -138,7 +149,7 @@ You can do this by running
 
     git checkout -b runs
 
-### Setting up the Master Configuration file.
+#### Setting up the Master Configuration file.
 
 Open the `config.yaml` file with your preferred text editor.
 
@@ -245,7 +256,7 @@ Each run would have a runtime of 1 year. So in the first submission it would run
 
 Then it would automatically resubmit another pbs job to model years 106 and 107, and then end.
 
-### Setting up the Atmosphere Submodel
+#### Setting up the Atmosphere Submodel
 
 The **name** in `config.yaml` for the atmosphere submodel is "atmosphere", so the configuration of the UM will be in the `atmosphere` subdirectory.
 
@@ -259,7 +270,7 @@ There are many configuration files, but I want to note the `um_env.py`.
 This file is used to set environment variables for the UM.
 The UM driver of **payu** will look for this file and add these definitions to the environment when it runs the model.
 
-### Setting up the Ocean Submodel
+#### Setting up the Ocean Submodel
 
 The **name** in `config.yaml` for the ocean submodel is "ocean", so the configuration
 of MOM will be in the `ocean` subdirectory.
@@ -268,7 +279,7 @@ of MOM will be in the `ocean` subdirectory.
     data_table  diag_table  field_table  input.nml
 
 
-### Setting up the Ice Submodel
+#### Setting up the Ice Submodel
 
 The **name** in `config.yaml` for the ice submodel is "ice", so the configuration
 of CICE will be in the `ice` subdirectory.
@@ -276,7 +287,7 @@ of CICE will be in the `ice` subdirectory.
     ls ice/
     cice_in.nml  input_ice.nml
 
-## Running the Model
+### Running the Model
 
 If you have set up the modules system to use the `/g/data3/hh5/public/modules` folder, a simple `module load conda/analysis3-unstable` should give you access to the **payu** system.
 
@@ -304,6 +315,6 @@ To automatically submit several runs (and to take advantage of the `runspersub` 
 
     payu run -n 7
 
-## Finding the Output
+### Finding the Output
 
 The output is automatically copied to the `archive/outputXXX` directories.
