@@ -1,15 +1,21 @@
+# PBS configuration
+
+# If submitting to a different project to your default, uncomment line below
+# and replace PROJECT_CODE with appropriate code. This may require setting shortpath
+# project: PROJECT_CODE
+
+# Force payu to always find, and save, files in this scratch project directory
+# shortpath: /scratch/PROJECT_CODE
+
+# note: if laboratory is relative path, it is relative to shortpath/$USER
+laboratory: access-esm
+
 jobname: pre-industrial
 queue: normal
 walltime: 2:00:00
 
-modules:
-  use:
-      - /g/data/vk83/apps/spack/0.22/release/modules/linux-rocky8-x86_64_v4
-  load:
-      - access-esm1p5/2024.05.0
 
-# note: if laboratory is relative path, it is relative to /scratch/$PROJECT/$USER
-laboratory: access-esm
+# Model configuration
 model: access
 
 submodels:
@@ -41,6 +47,7 @@ submodels:
       input:
         - /g/data/access/payu/access-esm/input/pre-industrial/coupler
 
+# Collation
 collate:
     exe: mppnccombine.spack
     restart: true
@@ -49,6 +56,15 @@ collate:
 
 restart: /g/data/vk83/experiments/inputs/access-esm1p5/pre-industrial/restart/
 
+# Modules for loading model executables
+modules:
+  use:
+      - /g/data/vk83/apps/spack/0.22/release/modules/linux-rocky8-x86_64_v4
+  load:
+      - access-esm1p5/2024.05.0
+
+
+# Timing controls
 calendar:
     start:
         year: 101
@@ -62,6 +78,32 @@ calendar:
 
 runspersub: 1
 
-stacksize: unlimited
+# Misc
+restart_freq: 5
 
+runlog: true
+manifest:
+  reproduce:
+    exe: True
+    
+# set number of cores per node (28 for normalbw, 48 for normal on gadi)
+platform:
+    nodesize: 48
+
+stacksize: unlimited
 qsub_flags: -W umask=027
+
+
+# Sync options for automatically copying data from ephemeral scratch space to 
+# longer term storage
+sync:
+    enable: False # set path below and change to true
+    path: null # Set to location on /g/data or a remote server and path (rsync syntax)
+
+# If a postscript included (such as the automated netcdf conversion), the latest output and restart files will not 
+# be automatically synced at the end of a run. To sync the latest output after a postscript has completed,
+#  manually run `payu sync` from the command line.
+
+# userscripts:
+
+# postscript:
