@@ -71,7 +71,6 @@ submodels:
       exe: cice_access_360x300_12x1_12p.exe
       input:
         # Grids
-        - /g/data/vk83/configurations/inputs/access-esm1p5/modern/share/ocean/shortwave_penetration/global.1deg/2020.05.19/ssw_atten_depth.nc
         - /g/data/vk83/configurations/inputs/access-esm1p5/modern/share/ice/grids/global.1deg/2020.05.19/kmt.nc
         - /g/data/vk83/configurations/inputs/access-esm1p5/modern/share/ice/grids/global.1deg/2020.05.19/grid.nc
         # Climatology
