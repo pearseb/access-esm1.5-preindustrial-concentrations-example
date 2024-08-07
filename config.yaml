@@ -1,3 +1,6 @@
+# Refer to https://payu.readthedocs.io/en/latest/config.html for full details of the 
+# payu configuration settings.
+
 # PBS configuration
 
 # If submitting to a different project to your default, uncomment line below
@@ -7,7 +10,7 @@
 # Force payu to always find, and save, files in this scratch project directory
 # shortpath: /scratch/PROJECT_CODE
 
-# note: if laboratory is relative path, it is relative to shortpath/$USER
+# Note: if laboratory is relative path, it is relative to shortpath/$USER
 laboratory: access-esm
 
 jobname: pre-industrial
@@ -54,7 +57,7 @@ collate:
     mem: 4GB
     walltime: 1:00:00
 
-restart: /g/data/vk83/experiments/inputs/access-esm1p5/pre-industrial/restart/
+restart: /g/data/vk83/experiments/inputs/access-esm1p5/modern/pre-industrial/restart/
 
 # Modules for loading model executables
 modules:
