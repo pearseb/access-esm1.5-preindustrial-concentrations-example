@@ -89,9 +89,6 @@ manifest:
   reproduce:
     exe: True
     
-# set number of cores per node (28 for normalbw, 48 for normal on gadi)
-platform:
-    nodesize: 48
 
 stacksize: unlimited
 qsub_flags: -W umask=027
