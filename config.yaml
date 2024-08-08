@@ -62,7 +62,7 @@ restart: /g/data/vk83/experiments/inputs/access-esm1p5/modern/pre-industrial/res
 # Modules for loading model executables
 modules:
   use:
-      - /g/data/vk83/apps/spack/0.22/release/modules/linux-rocky8-x86_64_v4
+      - /g/data/vk83/modules/access-models/
   load:
       - access-esm1p5/2024.05.0
 
