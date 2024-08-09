@@ -1,16 +1,33 @@
+# A tutorial for running ACCESS ESM1.5 can be found at
+# https://access-hive.org.au/models/run-a-model/run-access-esm
+# Full details about the payu configuration settings are available at
+# https://payu.readthedocs.io/en/latest/config.html
+
+
+# PBS configuration
+
+# If submitting to a different project to your default, uncomment line below
+# and replace PROJECT_CODE with appropriate code. This may require setting shortpath
+# project: PROJECT_CODE
+
+# Force payu to always find, and save, files in this scratch project directory
+# shortpath: /scratch/PROJECT_CODE
+
+# Note: if laboratory is relative path, it is relative to shortpath/$USER
+laboratory: access-esm
+
 jobname: pre-industrial
 queue: normal
-walltime: 2:00:00
+walltime: 2:30:00
 
 # Modules for loading model executables
 modules:
   use:
-      - /g/data/vk83/modules/access-models/
+      - /g/data/vk83/modules/
   load:
       - access-esm1p5/2024.05.0
 
-# note: if laboratory is relative path, it is relative to /scratch/$PROJECT/$USER
-laboratory: access-esm
+# Model configuration
 model: access
 
 submodels:
@@ -94,6 +111,7 @@ submodels:
         - /g/data/vk83/configurations/inputs/access-esm1p5/modern/share/coupler/remapping_weights/global.oi_1deg.a_N96/2020.05.19/rmp_um1t_to_cice_CONSERV_FRACNNEI.nc
         - /g/data/vk83/configurations/inputs/access-esm1p5/modern/share/coupler/remapping_weights/global.oi_1deg.a_N96/2020.05.19/rmp_cice_to_um1v_CONSERV_FRACNNEI.nc
 
+# Collation
 collate:
     exe: mppnccombine.spack
     restart: true
@@ -102,6 +120,7 @@ collate:
 
 restart: /g/data/vk83/configurations/inputs/access-esm1p5/modern/pre-industrial/restart/
 
+# Timing controls
 calendar:
     start:
         year: 101
@@ -115,6 +134,29 @@ calendar:
 
 runspersub: 1
 
-stacksize: unlimited
+# Misc
+restart_freq: 10YS
 
+runlog: true
+manifest:
+  reproduce:
+    exe: True
+    
+
+stacksize: unlimited
 qsub_flags: -W umask=027
+
+
+# Sync options for automatically copying data from ephemeral scratch space to 
+# longer term storage
+sync:
+    enable: False # set path below and change to true
+    path: null # Set to location on /g/data or a remote server and path (rsync syntax)
+
+# If a postscript included (such as the automated netcdf conversion), the latest output and restart files will not 
+# be automatically synced at the end of a run. To sync the latest output after a postscript has completed,
+#  manually run `payu sync` from the command line.
+
+# userscripts:
+
+# postscript:
