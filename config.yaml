@@ -23,7 +23,7 @@ walltime: 2:30:00
 # Modules for loading model executables
 modules:
   use:
-      - /g/data/vk83/modules/access-models/
+      - /g/data/vk83/modules/
   load:
       - access-esm1p5/2024.05.0
 
