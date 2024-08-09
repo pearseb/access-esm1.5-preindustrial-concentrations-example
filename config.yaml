@@ -1,5 +1,8 @@
-# Refer to https://payu.readthedocs.io/en/latest/config.html for full details of the 
-# payu configuration settings.
+# A tutorial for running ACCESS ESM1.5 can be found at
+# https://access-hive.org.au/models/run-a-model/run-access-esm
+# Full details about the payu configuration settings are available at
+# https://payu.readthedocs.io/en/latest/config.html
+
 
 # PBS configuration
 
@@ -15,7 +18,7 @@ laboratory: access-esm
 
 jobname: pre-industrial
 queue: normal
-walltime: 2:30:00
+walltime: 48:00:00
 
 # Modules for loading model executables
 modules:
@@ -117,14 +120,6 @@ collate:
 
 restart: /g/data/vk83/configurations/inputs/access-esm1p5/modern/pre-industrial/restart/
 
-# Modules for loading model executables
-modules:
-  use:
-      - /g/data/vk83/modules/access-models/
-  load:
-      - access-esm1p5/2024.05.0
-
-
 # Timing controls
 calendar:
     start:
@@ -137,10 +132,10 @@ calendar:
         months: 0
         days: 0
 
-runspersub: 1
+runspersub: 20
 
 # Misc
-restart_freq: 5
+restart_freq: 10YS
 
 runlog: true
 manifest:
