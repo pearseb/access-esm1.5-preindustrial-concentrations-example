@@ -18,7 +18,7 @@ laboratory: access-esm
 
 jobname: pre-industrial
 queue: normal
-walltime: 48:00:00
+walltime: 2:30:00
 
 # Modules for loading model executables
 modules:
@@ -132,7 +132,7 @@ calendar:
         months: 0
         days: 0
 
-runspersub: 20
+runspersub: 1
 
 # Misc
 restart_freq: 10YS
