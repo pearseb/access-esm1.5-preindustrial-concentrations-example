@@ -23,7 +23,7 @@ walltime: 2:30:00
 # Modules for loading model executables
 modules:
   use:
-      - /g/data/vk83/modules/
+      - /g/data/vk83/modules
   load:
       - access-esm1p5/2024.05.0
 
@@ -117,6 +117,7 @@ collate:
     restart: true
     mem: 4GB
     walltime: 1:00:00
+    mpi: true
 
 restart: /g/data/vk83/configurations/inputs/access-esm1p5/modern/pre-industrial/restart/
 
