@@ -12,7 +12,7 @@ realm:
   - atmosphere
   - land
   - ocean
-  - ocnBgchm
+  - ocnBgchem
   - seaIce
 nominal_resolution: 100 km
 reference: https://doi.org/10.1071/ES19035
