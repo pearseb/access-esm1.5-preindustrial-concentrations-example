@@ -827,15 +827,6 @@ ACCESS-ESM_CMIP6
 "ocean_model", "surface_o2", "surface_o2", "ocean-2d-surface_o2-1monthly-mean-ym%4yr%2mo", "all", "average", "none", 2
 
 
-# duplicated monthly 2d BGC fields
-"ocean_model", "stf07", "stf07", "ocean-2d-stf07-1monthly-mean-ym%4yr%2mo", "all", "average", "none", 2
-"ocean_model", "stf09", "stf09", "ocean-2d-stf09-1monthly-mean-ym%4yr%2mo", "all", "average", "none", 2
-"ocean_model", "stf03", "stf03", "ocean-2d-stf03-1monthly-mean-ym%4yr%2mo", "all", "average", "none", 2
-"ocean_model", "pco2", "pco2", "ocean-2d-pco2-1monthly-mean-ym%4yr%2mo", "all", "average", "none", 2
-"ocean_model", "paco2", "paco2", "ocean-2d-paco2-1monthly-mean-ym%4yr%2mo", "all", "average", "none", 2
-"ocean_model", "pprod_gross_2d", "pprod_gross_2d", "ocean-2d-pprod_gross_2d-1monthly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-
 # monthly 1d ocean fields
 
 "ocean-1d-temp_merid_flux_advect_global-1monthly-mean-ym%4yr%2mo", 1, "months", 1, "days", "time", 1, "years"

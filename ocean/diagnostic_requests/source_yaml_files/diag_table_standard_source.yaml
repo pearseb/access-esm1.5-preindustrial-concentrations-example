@@ -408,19 +408,7 @@ diag_table:
             surface_dic:
             surface_adic:
             surface_o2:
-            
-    'duplicated monthly 2d BGC fields':
-        defaults:  # these can be overridden for individual fields below
-            file_name_dimension: 2d  # descriptor for filename, e.g. 3d, 2d, scalar
-            output_freq: 1  # integer: output sampling frequency in output_freq_units (0: every timestep; -1: only at end of run)
-            output_freq_units: months  # time units for output: years, months, days, hours, minutes, or seconds
-        fields:
-            stf07:
-            stf09:
-            stf03:
-            pco2:
-            paco2:
-            pprod_gross_2d:
+
 
     'monthly 1d ocean fields':
         defaults:  # these can be overridden for individual fields below
