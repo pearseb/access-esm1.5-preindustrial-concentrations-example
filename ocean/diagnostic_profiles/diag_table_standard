@@ -67,26 +67,14 @@ ACCESS-ESM_CMIP6
 "ocean-3d-tx_trans_rho-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
 "ocean_model", "tx_trans_rho", "tx_trans_rho", "ocean-3d-tx_trans_rho-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
 
-"ocean-3d-ty_trans_rho-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "ty_trans_rho", "ty_trans_rho", "ocean-3d-ty_trans_rho-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
 "ocean-3d-tx_trans_rho_gm-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
 "ocean_model", "tx_trans_rho_gm", "tx_trans_rho_gm", "ocean-3d-tx_trans_rho_gm-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-"ocean-3d-ty_trans_rho_gm-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "ty_trans_rho_gm", "ty_trans_rho_gm", "ocean-3d-ty_trans_rho_gm-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
 
 "ocean-3d-tx_trans_gm-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
 "ocean_model", "tx_trans_gm", "tx_trans_gm", "ocean-3d-tx_trans_gm-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
 
-"ocean-3d-ty_trans_gm-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "ty_trans_gm", "ty_trans_gm", "ocean-3d-ty_trans_gm-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
 "ocean-3d-tx_trans-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
 "ocean_model", "tx_trans", "tx_trans", "ocean-3d-tx_trans-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-"ocean-3d-ty_trans-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "ty_trans", "ty_trans", "ocean-3d-ty_trans-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
 
 "ocean-3d-tz_trans-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
 "ocean_model", "tz_trans", "tz_trans", "ocean-3d-tz_trans-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
@@ -100,29 +88,11 @@ ACCESS-ESM_CMIP6
 "ocean-3d-tz_trans_sq-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
 "ocean_model", "tz_trans_sq", "tz_trans_sq", "ocean-3d-tz_trans_sq-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
 
-"ocean-3d-rho-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "rho", "rho", "ocean-3d-rho-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
 "ocean-3d-rho_dzt-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
 "ocean_model", "rho_dzt", "rho_dzt", "ocean-3d-rho_dzt-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
 
 "ocean-3d-pot_rho_0-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
 "ocean_model", "pot_rho_0", "pot_rho_0", "ocean-3d-pot_rho_0-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-"ocean-3d-dzt-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "dzt", "dzt", "ocean-3d-dzt-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-"ocean-3d-temp-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "temp", "temp", "ocean-3d-temp-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-"ocean-3d-pot_temp-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "pot_temp", "pot_temp", "ocean-3d-pot_temp-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-"ocean-3d-salt-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "salt", "salt", "ocean-3d-salt-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-"ocean-3d-age_global-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "age_global", "age_global", "ocean-3d-age_global-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
 
 "ocean-3d-sw_heat-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
 "ocean_model", "sw_heat", "sw_heat", "ocean-3d-sw_heat-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
@@ -136,20 +106,8 @@ ACCESS-ESM_CMIP6
 "ocean-3d-temp_rivermix-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
 "ocean_model", "temp_rivermix", "temp_rivermix", "ocean-3d-temp_rivermix-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
 
-"ocean-3d-temp_vdiffuse_impl-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "temp_vdiffuse_impl", "temp_vdiffuse_impl", "ocean-3d-temp_vdiffuse_impl-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-"ocean-3d-salt_vdiffuse_impl-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "salt_vdiffuse_impl", "salt_vdiffuse_impl", "ocean-3d-salt_vdiffuse_impl-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-"ocean-3d-temp_tendency-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "temp_tendency", "temp_tendency", "ocean-3d-temp_tendency-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
 "ocean-3d-temp_tendency_expl-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
 "ocean_model", "temp_tendency_expl", "temp_tendency_expl", "ocean-3d-temp_tendency_expl-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-"ocean-3d-salt_tendency-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "salt_tendency", "salt_tendency", "ocean-3d-salt_tendency-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
 
 "ocean-3d-salt_tendency_expl-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
 "ocean_model", "salt_tendency_expl", "salt_tendency_expl", "ocean-3d-salt_tendency_expl-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
@@ -165,9 +123,6 @@ ACCESS-ESM_CMIP6
 
 "ocean-3d-pot_rho_2-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
 "ocean_model", "pot_rho_2", "pot_rho_2", "ocean-3d-pot_rho_2-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-"ocean-3d-press-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "press", "press", "ocean-3d-press-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
 
 "ocean-3d-drhodtheta-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
 "ocean_model", "drhodtheta", "drhodtheta", "ocean-3d-drhodtheta-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
@@ -186,9 +141,6 @@ ACCESS-ESM_CMIP6
 
 "ocean-3d-mixdownslope_salt-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
 "ocean_model", "mixdownslope_salt", "mixdownslope_salt", "ocean-3d-mixdownslope_salt-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-"ocean-3d-bv_freq-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "bv_freq", "bv_freq", "ocean-3d-bv_freq-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
 
 "ocean-3d-diff_cbt_wave-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
 "ocean_model", "diff_cbt_wave", "diff_cbt_wave", "ocean-3d-diff_cbt_wave-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
@@ -229,12 +181,6 @@ ACCESS-ESM_CMIP6
 "ocean-3d-salt_zflux_adv-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
 "ocean_model", "salt_zflux_adv", "salt_zflux_adv", "ocean-3d-salt_zflux_adv-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
 
-"ocean-3d-u-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "u", "u", "ocean-3d-u-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-"ocean-3d-v-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "v", "v", "ocean-3d-v-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
 "ocean-3d-lap_fric_u-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
 "ocean_model", "lap_fric_u", "lap_fric_u", "ocean-3d-lap_fric_u-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
 
@@ -246,51 +192,6 @@ ACCESS-ESM_CMIP6
 
 "ocean-3d-wrhot-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
 "ocean_model", "wrhot", "wrhot", "ocean-3d-wrhot-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-
-# yearly 3d BGC fields
-
-"ocean-3d-adic-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "adic", "adic", "ocean-3d-adic-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-"ocean-3d-dic-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "dic", "dic", "ocean-3d-dic-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-"ocean-3d-caco3-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "caco3", "caco3", "ocean-3d-caco3-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-"ocean-3d-alk-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "alk", "alk", "ocean-3d-alk-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-"ocean-3d-o2-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "o2", "o2", "ocean-3d-o2-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-"ocean-3d-no3-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "no3", "no3", "ocean-3d-no3-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-"ocean-3d-fe-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "fe", "fe", "ocean-3d-fe-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-"ocean-3d-det-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "det", "det", "ocean-3d-det-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-"ocean-3d-phy-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "phy", "phy", "ocean-3d-phy-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-"ocean-3d-zoo-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "zoo", "zoo", "ocean-3d-zoo-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-"ocean-3d-pprod_gross-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "pprod_gross", "pprod_gross", "ocean-3d-pprod_gross-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-
-# yearly 2d BGC fields
-
-"ocean-2d-stf07-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "stf07", "stf07", "ocean-2d-stf07-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
-
-"ocean-2d-stf09-1yearly-mean-ym%4yr%2mo", 1, "years", 1, "days", "time", 1, "years"
-"ocean_model", "stf09", "stf09", "ocean-2d-stf09-1yearly-mean-ym%4yr%2mo", "all", "average", "none", 2
 
 
 # monthly 3d ocean fields
