@@ -27,6 +27,8 @@
   , write_ic       = .false.
   , incond_dir     = './HISTORY/'
   , incond_file    = 'iceh_ic'
+  , history_file   = 'iceh'
+  , history_format = 'nc'
 /
 
 &grid_nml

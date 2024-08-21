@@ -2,8 +2,6 @@
   , histfreq       = 'd','m','x','x','x'
   , histfreq_n     = 1, 1, 1, 1, 1
   , hist_avg       = .true.
-  , history_file   = 'iceh'
-  , history_format = 'nc'
 /
 
 ! Please note, the following diagnostics are affected by
