@@ -6,4 +6,7 @@
 #PBS -l walltime=00:40:00
 #PBS -l wd
 
-esm1p5_convert_nc $PAYU_CURRENT_OUTPUT_DIR 
+module use /g/data/vk83/prerelease/modules
+module load payu
+
+esm1p5_convert_nc "$@" 
