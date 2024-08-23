@@ -9,4 +9,4 @@
 module use /g/data/vk83/prerelease/modules
 module load payu
 
-esm1p5_convert_nc "$@" 
+esm1p5_convert_nc $PAYU_CURRENT_OUTPUT_DIR --delete-ff

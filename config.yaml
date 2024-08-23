@@ -160,4 +160,4 @@ sync:
 
 # userscripts:
 
-postscript: -lstorage=${PBS_NCI_STORAGE} ./scripts/NetCDF-conversion/UM_conversion_job.sh $PAYU_CURRENT_OUTPUT_DIR  # -delete-ff
+postscript: -lstorage=${PBS_NCI_STORAGE} -v PAYU_CURRENT_OUTPUT_DIR ./scripts/NetCDF-conversion/UM_conversion_job.sh
