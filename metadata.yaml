@@ -1,6 +1,6 @@
 contact: Spencer Wong
 email: spencer.wong@anu.edu.au
-created: '2024-08-27'
+created: '2024-09-02'
 description: |-
   ACCESS-ESM1.5 global coupled model configuration running in co2 concentration driven mode under pre-industrial forcings, as described in Ziehn et al. (2020), https://doi.org/10.1071/ES19035.
   Pre-industrial forcing data including atmospheric co2 concentrations are primarily sourced from UKMO versions of CMIP6 inputs, with additional atmospheric forcings sourced from CMIP5 and land cover data adapted from Lawrence et al. (2012), https://doi.org/10.1175/JCLI-D-11-00256.1.
@@ -25,13 +25,13 @@ reference: https://doi.org/10.1071/ES19035
 license: CC-BY-4.0
 model: ACCESS
 version: '1.0'
-url: https://github.com/ACCESS-NRI/access-esm1.5-configs
-experiment_uuid: 0225dcf2-3e7c-4474-8c00-a9619d6bfed8
-name: 
-  20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2
+url: 
+  git@github.com:ACCESS-Community-Hub/access-esm1.5-preindustrial-concentrations-example.git
+experiment_uuid: 3424cac9-1325-4dbc-8951-399376e4883f
+name: access-esm1.5-preindustrial-concentrations-example-perturb1-3424cac9
 schema_version:  # The version of the schema (string)
 long_description: # Long description of the experiment (string)
 frequency: # The frequency(/ies) included in the experiment (string)
 variable: # The variable(s) included in the experiment (string)
-parent_experiment: # experiment_uuid for parent experiment if appropriate (string)
+parent_experiment: 0225dcf2-3e7c-4474-8c00-a9619d6bfed8 # experiment_uuid for parent experiment if appropriate (string)
 related_experiments: # experiment_uuids for any related experiment(s) (string)
