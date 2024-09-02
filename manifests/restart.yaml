@@ -2,168 +2,168 @@ format: yamanifest
 version: 1.0
 ---
 work/atmosphere/restart_dump.astart:
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/atmosphere/restart_dump.astart
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/atmosphere/restart_dump.astart
   hashes:
-    binhash: 4510b5c82123c9752a92cb5d6733f469
-    md5: a03b8037b910b17a362c70b4ef37ce86
+    binhash: 41d98d0c747ab346ed7be0cf5d00a823
+    md5: 6b018b11a9718fd7468a5779f36b6d39
 work/atmosphere/um.res.yaml:
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/atmosphere/um.res.yaml
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/atmosphere/um.res.yaml
   hashes:
-    binhash: 25a7b4ef5dd90f81b14eaf7b14073ba2
-    md5: 03a8f0ac1df454f037f35da457dc59de
+    binhash: b56b6929fa29a93a4b5bfa8496e3571c
+    md5: 5e2596bf51e5d9374c012d93a97a5ff6
 work/coupler/a2i.nc:
   copy: true
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/coupler/a2i.nc
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/coupler/a2i.nc
   hashes:
-    binhash: 32c84888c2408517576a95301f433034
-    md5: e5df43cf692333814139027f532dac4c
+    binhash: 1df7a1a65e4c263dfe51b7da1751960a
+    md5: 39708f657e8eee7d3b42f98c36c97d02
 work/coupler/i2a.nc:
   copy: true
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/coupler/i2a.nc
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/coupler/i2a.nc
   hashes:
-    binhash: d4e50529ab0fa51079d987a44f1225d3
-    md5: 50f5af58ef232e742ea358a1970747d2
+    binhash: fbb893ac4d3de461fcfb8ac9274521f2
+    md5: 57a7e0cc832ad23acc606880da231602
 work/coupler/o2i.nc:
   copy: true
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/coupler/o2i.nc
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/coupler/o2i.nc
   hashes:
-    binhash: af6febcf7136d6e98455358a65e8a341
-    md5: e7b94ece1b8e07a4c42e5c775d241e7f
+    binhash: 716cb7a9d40b092266f16fbe7a155a94
+    md5: 0b72c418d8332d37d023dddb3ad2a32b
 work/ice/RESTART/cice_in.nml:
   copy: true
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ice/cice_in.nml
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ice/cice_in.nml
   hashes:
-    binhash: 7a6d7aa0a867e14760bab95ccf7a7a7d
-    md5: 5b997ce55d8edb00c2a0008388af5331
+    binhash: d985c29a5fbefb082c4e9150452e7614
+    md5: 52113baa84e1fd9f005799a309cfde0a
 work/ice/RESTART/ice.restart_file:
   copy: true
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ice/ice.restart_file
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ice/ice.restart_file
   hashes:
-    binhash: 3ba23bc02b6266c57687d04d2147d22a
-    md5: b60ca602f33cff7e6f97ed2ff69553d9
+    binhash: 1abc3f1ffaa9ea791a65e97e42ce6c0c
+    md5: a24f9c75cad44051e88dd7c5e7cb5c4a
 work/ice/RESTART/ice.restart_file-01001231:
   copy: true
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ice/ice.restart_file-01001231
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ice/ice.restart_file-01001231
   hashes:
-    binhash: bcd30103166f18e14472cba0ca96acca
+    binhash: 3bbf09b1651e48442211a86f32b8ef53
     md5: 2b181afa9524673b64612f3094427fbe
-work/ice/RESTART/iced.01210101:
+work/ice/RESTART/iced.01220101:
   copy: true
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ice/iced.01210101
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ice/iced.01220101
   hashes:
-    binhash: ae8480ec1101ad4b0d454fe93e5a68ae
-    md5: 9cdff145252bd1a6d4529e316a942b68
+    binhash: 2e7eeaa049b7f673aa1a2aee40832a4b
+    md5: 1017ed050fc198dbe5bcce7dcca8e690
 work/ice/RESTART/input_ice.nml:
   copy: true
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ice/input_ice.nml
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ice/input_ice.nml
   hashes:
-    binhash: d7b302b15cd64325ef2d35b4d2c82c65
+    binhash: 9fa8234648a374a962e6e46ca3815759
     md5: e2d6d0541795dd3eeae54cda28ecba96
 work/ice/RESTART/mice.nc:
   copy: true
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ice/mice.nc
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ice/mice.nc
   hashes:
-    binhash: 52d1ec2d7f48fade9747c6fb8b175330
-    md5: 440ee51e4988f0b26c15bc9f176be2ab
+    binhash: c0189ba9b36a73bb24fb75626891a809
+    md5: 189cba5112e95a1c26a68679a1b52a80
 work/ice/RESTART/mice.nc-01001231:
   copy: true
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ice/mice.nc-01001231
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ice/mice.nc-01001231
   hashes:
-    binhash: 2b8c75708568253849c93026b76ecdae
+    binhash: a8f5a913dbda3958253524cd218f3f52
     md5: 380a7008500f58eb5e8006b1eac18527
 work/ice/RESTART/restart_date.nml:
   copy: true
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ice/restart_date.nml
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ice/restart_date.nml
   hashes:
-    binhash: 217954009213df55a31c825c96b9a167
-    md5: acb731bab875b6e5aaae7756689412be
+    binhash: 119a8255a6c6f0dd4f1f7510aa055c43
+    md5: 03a0f1c8967e6c5573d9917575074c18
 work/ocean/INPUT/csiro_bgc.res.nc:
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ocean/csiro_bgc.res.nc
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ocean/csiro_bgc.res.nc
   hashes:
-    binhash: befb53947c8703b7e19d4ecfc4fd4d14
-    md5: c2e008b28366008d729ebfe9d84a5cdb
+    binhash: 542e85e4dd21effd93a9cb4149191f12
+    md5: 2eadc1a56dbfc825d701544de9aaef82
 work/ocean/INPUT/csiro_bgc_sediment.res.nc:
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ocean/csiro_bgc_sediment.res.nc
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ocean/csiro_bgc_sediment.res.nc
   hashes:
-    binhash: fc823239f7fee516b9c068a33c111ce1
-    md5: c50ed27ee1e7672494b5a289c5afb9d2
+    binhash: 59588b56b9b4f5a3a04dc06d89ea9a08
+    md5: 2f4f043894b63470991a3325e39d614e
 work/ocean/INPUT/ocean_age.res.nc:
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ocean/ocean_age.res.nc
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ocean/ocean_age.res.nc
   hashes:
-    binhash: ee48df3b6e78f11e8a09f8d324eb5744
-    md5: fb7038b9a1a934ea1281c00ef42cb197
+    binhash: 384bda5618517660345b76e68b875925
+    md5: d1a80f1136f202dc2afe8f212f3a9b52
 work/ocean/INPUT/ocean_barotropic.res.nc:
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ocean/ocean_barotropic.res.nc
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ocean/ocean_barotropic.res.nc
   hashes:
-    binhash: f20690ac66f3b6c202ec4fc2b818dba1
-    md5: 0124ec94b71326432647a14df25d0165
+    binhash: 2dcff2117a806be273510f0312e46b90
+    md5: a2ca319cfd73dc70e5c84bf5e46ba2dd
 work/ocean/INPUT/ocean_bih_friction.res.nc:
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ocean/ocean_bih_friction.res.nc
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ocean/ocean_bih_friction.res.nc
   hashes:
-    binhash: 38bb0fdc6b418a8962a108357770dcf8
-    md5: 7ac205808eb33c6fc2ef24320aa0da48
+    binhash: d2e7453b86895f3e64902b0fb0c0932e
+    md5: 63dd7ac69d6bcfb69e0cde2b2c7054e7
 work/ocean/INPUT/ocean_density.res.nc:
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ocean/ocean_density.res.nc
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ocean/ocean_density.res.nc
   hashes:
-    binhash: 8580600b95ce183549ff7853928a9a85
-    md5: 2dc30481be903b57ec0935dd5d286d7e
+    binhash: 0bcff803063379680a725cd341928ff1
+    md5: ec367570cfd28d9f562e25cc93b5e729
 work/ocean/INPUT/ocean_frazil.res.nc:
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ocean/ocean_frazil.res.nc
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ocean/ocean_frazil.res.nc
   hashes:
-    binhash: 7def530b9d5de8ba48389202396aa068
-    md5: 0e8637d8e179904e3bae4790548286f7
+    binhash: a2fdbd46248194804efc0108da71fd41
+    md5: e8f28263b1bbf3de3c45e30c2af1a4ed
 work/ocean/INPUT/ocean_lap_friction.res.nc:
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ocean/ocean_lap_friction.res.nc
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ocean/ocean_lap_friction.res.nc
   hashes:
-    binhash: 73f1f215ca1e2aee208a3498d8a5cee1
-    md5: 14f0e4bec708d108dacecd6517ed6f8f
+    binhash: 8f2f743d74ff1ca1c6ef29a5b350481a
+    md5: e64c67ef5145ca0ef98c93d81e6a82fb
 work/ocean/INPUT/ocean_neutral.res.nc:
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ocean/ocean_neutral.res.nc
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ocean/ocean_neutral.res.nc
   hashes:
-    binhash: 32e2b3da28fa9b187a9cade3602f81ca
-    md5: 10256aebf5296a37f779bc378f1716f3
+    binhash: 4748213cba097be8bd68be520a9a884f
+    md5: e46ddc53205e6b783fc06ae5fa346dd9
 work/ocean/INPUT/ocean_pot_temp.res.nc:
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ocean/ocean_pot_temp.res.nc
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ocean/ocean_pot_temp.res.nc
   hashes:
-    binhash: 99b67ef9cba6e461e861d9d9a9de0dcd
-    md5: b1b65296add36d6621b3dacf64d4f844
+    binhash: 8a18a6e6298a33e68002889d0c0ed172
+    md5: 8534f89ca8684000946a3f4e89bd8b68
 work/ocean/INPUT/ocean_sbc.res.nc:
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ocean/ocean_sbc.res.nc
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ocean/ocean_sbc.res.nc
   hashes:
-    binhash: e27b330bceec1d24d92f295b93ffc9d8
-    md5: 37ca9cc8de21af1ebb165db7e49d4d8c
+    binhash: b1f6d0fb8d0daf905a17cb74798491fb
+    md5: 91cfb3b12a4cf48c62a2e7afe8d53de8
 work/ocean/INPUT/ocean_sigma_transport.res.nc:
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ocean/ocean_sigma_transport.res.nc
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ocean/ocean_sigma_transport.res.nc
   hashes:
-    binhash: aa5d668e0a89b0edbac560db2995397f
+    binhash: 5dad2fa9960f87d3d75029f623ceab0a
     md5: fe527a9917d30955d0dc082271c1392f
 work/ocean/INPUT/ocean_solo.res:
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ocean/ocean_solo.res
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ocean/ocean_solo.res
   hashes:
-    binhash: 0c9e43ddc798e48dff78cc7e675f1de0
-    md5: e24a1e6b48d67adb5a0185d222e3f37a
+    binhash: bf3d290dfe856b2414365d47de1923fb
+    md5: 42277f06795dc49fdc4126068bea4825
 work/ocean/INPUT/ocean_temp_salt.res.nc:
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ocean/ocean_temp_salt.res.nc
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ocean/ocean_temp_salt.res.nc
   hashes:
-    binhash: 1558e68f96b5fa7f2143b6f2aec47592
-    md5: a5c8b17057be21f2f3d9a6ed99ed8e5e
+    binhash: ee14252e8d0e8c735c397a88a23c750b
+    md5: eecfe2bcd26d0b3032cd55692025345c
 work/ocean/INPUT/ocean_thickness.res.nc:
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ocean/ocean_thickness.res.nc
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ocean/ocean_thickness.res.nc
   hashes:
-    binhash: 729a393b8097362834d37ef3ca521129
-    md5: dfa1d001629aa4ece1c97d6c2e9cb90a
+    binhash: 8a3f914d2d07a79d4f3774a905835800
+    md5: ba5e551d7a7d7e22bad4037ad7c4203c
 work/ocean/INPUT/ocean_tracer.res:
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ocean/ocean_tracer.res
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ocean/ocean_tracer.res
   hashes:
-    binhash: 57b3d8da35df61390afab1f648014c1c
-    md5: 9c4b82fcabe41d7391c2523eee2fbfbe
+    binhash: 2b2d4181c770f86a3febad8bf0fa48fe
+    md5: c25d8450e0cbabfc4918e2ebadbd9b23
 work/ocean/INPUT/ocean_velocity.res.nc:
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ocean/ocean_velocity.res.nc
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ocean/ocean_velocity.res.nc
   hashes:
-    binhash: 6984ece26bf7d9e0113d21dcc16369ea
-    md5: 91107ad6b3222d8d817000b2a69ca683
+    binhash: 5d78e4365bde2727b7d9697d4950c0b3
+    md5: 50bbd23fc2f3f266fd73600a3585ea46
 work/ocean/INPUT/ocean_velocity_advection.res.nc:
-  fullpath: /scratch/tm70/sw6175/access-esm/archive/20240827-release-preindustrial+concentrations-run-20240827-release-preindustrial+concentrations-run-0225dcf2/restart019/ocean/ocean_velocity_advection.res.nc
+  fullpath: /g/data/nf33/public/training-day-2024/payu-training/experiments/20240827-release-preindustrial+concentrations-run-0225dcf2/restart020/ocean/ocean_velocity_advection.res.nc
   hashes:
-    binhash: 95116e540bba00dcff9137e10dcc200a
-    md5: d67cee0de348c035f6cafbffd592d69a
+    binhash: 109377fae965adb5958c09c78c6c815d
+    md5: bf28ee4c2ef0342fd7d5a78f8bb37413
